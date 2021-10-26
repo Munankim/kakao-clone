@@ -1,3 +1,3 @@
 # Kakao Clone Update
 
-CSS
+HTML & CSS
