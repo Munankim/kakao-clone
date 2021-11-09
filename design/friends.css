@@ -21,7 +21,7 @@
   padding: 15px;
   padding-bottom: 0px;
   margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main--border);
 }
 
 .friends-screen__channel-header {
@@ -29,4 +29,15 @@
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+
+.open-chat__header span {
+  opacity: 0.6;
 }

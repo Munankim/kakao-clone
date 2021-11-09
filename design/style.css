@@ -7,10 +7,11 @@
 @import "components/user-component.css";
 @import "login.css";
 @import "components/badge.css";
+@import "find.css";
 @import "friends.css";
 
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
-  margin-top: 16px;
+  margin: 20px;
 }
