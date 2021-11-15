@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: white;
 }
 .status-bar__column {
   width: 33%;
