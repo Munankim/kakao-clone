@@ -8,9 +8,11 @@
 @import "components/icon-row.css";
 @import "login.css";
 @import "components/badge.css";
+@import "components/alt-screen-header.css";
 @import "find.css";
 @import "friends.css";
 @import "more.css";
+@import "settings.css";
 
 body {
   color: #2e363e;
