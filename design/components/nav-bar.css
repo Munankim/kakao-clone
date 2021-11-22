@@ -34,15 +34,3 @@
   bottom: 25px;
   border-radius: 3.5px;
 }
-
-@keyframes notificationAnimation {
-  0% {
-    transform: none;
-  }
-  50% {
-    transform: translateY(5px);
-  }
-  100% {
-    transform: none;
-  }
-}
