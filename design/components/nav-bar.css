@@ -20,6 +20,7 @@
   position: absolute;
   left: 17px;
   bottom: 15px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__alarm {
@@ -32,4 +33,16 @@
   left: 35px;
   bottom: 25px;
   border-radius: 3.5px;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: none;
+  }
 }
